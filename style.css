@@ -1,0 +1,19 @@
+body{
+    background-image:url("bg.avif");
+}
+
+h1{
+    font-size: xx-large !important;
+}
+
+canvas{
+    border:1px solid black;
+    background-color: lightblue;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 0.5px 0.5px 4px 4px #9fb4ff;}
+    to{box-shadow: 0.5px 0.5px 4px 4px rgb(12, 44, 226);}
+}
